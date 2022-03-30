@@ -10,9 +10,10 @@
 		F06BE13C27F4A7AE00F2C7E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06BE13B27F4A7AE00F2C7E8 /* AppDelegate.swift */; };
 		F06BE13E27F4A7AE00F2C7E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06BE13D27F4A7AE00F2C7E8 /* SceneDelegate.swift */; };
 		F06BE14027F4A7AE00F2C7E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06BE13F27F4A7AE00F2C7E8 /* ViewController.swift */; };
-		F06BE14327F4A7AE00F2C7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06BE14127F4A7AE00F2C7E8 /* Main.storyboard */; };
 		F06BE14527F4A7B000F2C7E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06BE14427F4A7B000F2C7E8 /* Assets.xcassets */; };
 		F06BE14827F4A7B000F2C7E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06BE14627F4A7B000F2C7E8 /* LaunchScreen.storyboard */; };
+		F06BE15027F4A7CD00F2C7E8 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F06BE14F27F4A7CD00F2C7E8 /* alarm_sound.mp3 */; };
+		F06BE15227F4A80F00F2C7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06BE15127F4A80F00F2C7E8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		F06BE13B27F4A7AE00F2C7E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06BE13D27F4A7AE00F2C7E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F06BE13F27F4A7AE00F2C7E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F06BE14227F4A7AE00F2C7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F06BE14427F4A7B000F2C7E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F06BE14727F4A7B000F2C7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F06BE14927F4A7B000F2C7E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06BE14F27F4A7CD00F2C7E8 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		F06BE15127F4A80F00F2C7E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 				F06BE13B27F4A7AE00F2C7E8 /* AppDelegate.swift */,
 				F06BE13D27F4A7AE00F2C7E8 /* SceneDelegate.swift */,
 				F06BE13F27F4A7AE00F2C7E8 /* ViewController.swift */,
-				F06BE14127F4A7AE00F2C7E8 /* Main.storyboard */,
+				F06BE15127F4A80F00F2C7E8 /* Main.storyboard */,
 				F06BE14427F4A7B000F2C7E8 /* Assets.xcassets */,
+				F06BE14F27F4A7CD00F2C7E8 /* alarm_sound.mp3 */,
 				F06BE14627F4A7B000F2C7E8 /* LaunchScreen.storyboard */,
 				F06BE14927F4A7B000F2C7E8 /* Info.plist */,
 			);
@@ -127,7 +130,8 @@
 			files = (
 				F06BE14827F4A7B000F2C7E8 /* LaunchScreen.storyboard in Resources */,
 				F06BE14527F4A7B000F2C7E8 /* Assets.xcassets in Resources */,
-				F06BE14327F4A7AE00F2C7E8 /* Main.storyboard in Resources */,
+				F06BE15027F4A7CD00F2C7E8 /* alarm_sound.mp3 in Resources */,
+				F06BE15227F4A80F00F2C7E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F06BE14127F4A7AE00F2C7E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F06BE14227F4A7AE00F2C7E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F06BE14627F4A7B000F2C7E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,6 +291,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +320,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
